@@ -1,0 +1,7 @@
+{
+  "name": "IVAgent",
+  "description": "Autonomous AI voice telephony and appointment booking agent that dials businesses, enquires about availability, negotiates time slots, and confirms schedules.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

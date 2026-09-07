@@ -1,4 +1,4 @@
-# IVAgent 📞🤖
+# CALL-E Appointment Agent 📞🤖
 
 An autonomous AI voice telephony and appointment booking assistant powered by **Gemini 2.5** and the **CALL-E Autonomous Calling Engine**. The agent dials real businesses (clinics, doctors, salons, auto shops, etc.), negotiates appointment schedules, handles conversational objections, respects strict privacy guardrails, and exports booked appointments directly into Google Calendar and `.ics` files.
 
@@ -14,13 +14,6 @@ An autonomous AI voice telephony and appointment booking assistant powered by **
 - **Multilingual Support**:
   - Native conversational openers and dialogue flows for Indian regional languages: **Telugu**, **Hindi**, **Tamil**, **Kannada**, **Malayalam**, **Marathi**, **Bengali**, **Gujarati**, and **Punjabi**, alongside **English**.
   - Localized greetings (e.g., Telugu: *“నమస్కారం అండి, నేను Santosh Kumar తరపున మాట్లాడుతున్నాను...”*).
-
-- **Google Cloud Platform (GCP) Integration**:
-  - **Google Cloud Run**: Native containerized execution environment with auto-scaling, low-latency edge routing (`asia-east1`), and port 3000 ingress.
-  - **Google Cloud Text-to-Speech (TTS) & Vertex AI**: Neural speech synthesis across 10 Indian regional accents and international dialects.
-  - **Google Cloud Logging**: Structured JSON logging conforming to `logging.googleapis.com` schema with trace correlation, severity filters, and PII audit stamps.
-  - **Google Cloud Storage (GCS)**: Signed manifest export for appointment transcripts and HIPAA/ISO compliance archives.
-  - **1-Click GCP Deployment**: Built-in `cloudrun.yaml` manifest and Dockerfile for effortless `gcloud run deploy`.
 
 - **Google Calendar & iCal (.ics) Integration**:
   - **Add to Google Calendar** button directly on the booked appointment report and dispatch receipt.
@@ -39,7 +32,6 @@ An autonomous AI voice telephony and appointment booking assistant powered by **
 - **Structured Reporting & Confirmation Dispatch**:
   - Extracts confirmed appointment slots, alternative recommendations, clinic policies, and estimated fees.
   - Dispatches SMS / Email confirmations with quick-copy summaries.
-  - **Agent Performance & Accuracy Feedback**: Interactive 5-star ranking system capturing information accuracy, conversational flow, tag highlights, and observation notes after each call.
   - Call analytics dashboard with appointment success rates and conversion metrics.
 
 ---
